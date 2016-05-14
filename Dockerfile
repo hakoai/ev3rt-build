@@ -7,4 +7,6 @@ RUN \
   mv /tmp/ev3rt-beta5-2-release /var/lib/ev3rt && \
   cd /var/lib/ev3rt/ && \
   tar Jxvf hrp2.tar.xz && \
-  rm hrp2.tar.xz
+  rm hrp2.tar.xz && \
+  cd hrp2/cfg && \
+  make
