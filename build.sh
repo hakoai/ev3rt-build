@@ -1,7 +1,6 @@
 #!/bin/sh
 
-DIR=$(cd $(dirname $0); pwd)
-cd ${DIR}
+cd `dirname $0`
 pushd .
 rm -rf ${EV3RT_WORKSPACE}/build/
 cp -R ./ ${EV3RT_WORKSPACE}/build/
