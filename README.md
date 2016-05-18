@@ -20,7 +20,7 @@ docker run --rm -v `pwd`:/root/source -i -t hakoai/ev3rt-build:beta6-2 /bin/bash
 (`exit`するとコンテナ内のすべての変更が消えてしまうので注意してください。)
 
 パッケージは`ENV EV3RT_LIB_PATH /var/lib/ev3rt`にあります。  
-ワークスペースは`ENV EV3RT_WORKSPACE ${EV3RT_LIB_PATH}/hrp2/workspace`にあります。
+ワークスペースは`ENV EV3RT_WORKSPACE ${EV3RT_LIB_PATH}/hrp2(/sdk)/workspace`にあります。
 
 接続後のビルド方法は下記で確認してください。  
 http://dev.toppers.jp/trac_user/ev3pf/wiki/SampleProgram
