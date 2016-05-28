@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash -eu
 build() {
   local CURRENT_DIR=`pwd`
   rm -rf ${EV3RT_WORKSPACE}/build/
