@@ -28,6 +28,7 @@ http://dev.toppers.jp/trac_user/ev3pf/wiki/SampleProgram
 現在提供しているバージョンは以下になります。
 * beta5-2
 * beta6-2
+* beta7
 
 ## Contributing
 

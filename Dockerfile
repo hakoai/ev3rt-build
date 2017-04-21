@@ -1,7 +1,7 @@
 FROM sharaku/ev3rt-build
 MAINTAINER hakoai
 
-ENV EV3RT_LIB_NAME=ev3rt-beta6-2-release \
+ENV EV3RT_LIB_NAME=ev3rt-beta7-release \
     EV3RT_LIB_PATH=/var/lib/ev3rt
 
 ENV EV3RT_WORKSPACE=${EV3RT_LIB_PATH}/hrp2/sdk/workspace
